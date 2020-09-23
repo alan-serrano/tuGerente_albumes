@@ -1,0 +1,7 @@
+.MuiDialog-container {
+    background-color: rgba($color: black, $alpha: 0);
+
+    > div {
+        background-color: rgba($color: black, $alpha: 0.2);
+    }
+}

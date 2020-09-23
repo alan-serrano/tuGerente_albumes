@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useEffect, useState} from 'react';
+import Album from './components/album'
+import {getUsers} from 'services';
+import CssBaseline from '@material-ui/core/CssBaseline';
 
 function App() {
+  const [users, setUsers] = useState({});
+
+  useEffect(function retrieveUsers() {
+    getUsers().then(res => {
+      setUsers(res);
+    })
+  }, []);
+  
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CssBaseline/>
+      <Album {...{users}}/>
     </div>
   );
 }
