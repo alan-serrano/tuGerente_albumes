@@ -1,3 +1,27 @@
+# tuGerente Test
+
+<p align="center">
+  <a href="https://material-ui.com/" rel="noopener" target="_blank"><img width="150" src="./public/favicon.png" alt="Tu Gerente Logo"></a></p>
+</p>
+
+<h1 align="center">tuGerente</h1>
+
+[![npm package](https://img.shields.io/npm/v/react?label=React&logo=react&color=%2361DAFB)](https://www.npmjs.com/package/react)
+[![npm package](https://img.shields.io/npm/v/axios?label=Axios)](https://www.npmjs.com/package/axios)
+[![npm package](https://img.shields.io/npm/v/@material-ui/core/latest.svg?label=Material%20UI&logo=material-ui&color=%231976D2)](https://www.npmjs.com/package/@material-ui/core)
+
+## Description
+
+Create an app in react that will show photo albums of different users.
+It must be possible to select the user's email with a text input and a search button.
+When searching by email, the photos should be shown separated by albums as follows:
+a section per album, whose title will be the name of the album.
+A preview of the photos in that album below the title of each section (use the thumbnailUrl)
+When you click on the thumbnail, the real image (url) with its title will be displayed on the entire screen in a popup
+the list of users will be obtained from the following url: https://jsonplaceholder.typicode.com/users
+the list of albums will be obtained from the following url: https://jsonplaceholder.typicode.com/albums
+the list of photographs will be obtained from the following url: https://jsonplaceholder.typicode.com/photos
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
