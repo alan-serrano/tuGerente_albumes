@@ -22,6 +22,9 @@ the list of users will be obtained from the following url: https://jsonplacehold
 the list of albums will be obtained from the following url: https://jsonplaceholder.typicode.com/albums
 the list of photographs will be obtained from the following url: https://jsonplaceholder.typicode.com/photos
 
+Here is the mockup of the app
+![img](./mockup.jpg)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
